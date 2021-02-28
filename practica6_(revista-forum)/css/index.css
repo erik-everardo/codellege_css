@@ -105,3 +105,34 @@ nav > #links > .nav-item > .nav-link {
     right:15px;
     left: 15px;
 }
+
+#tarjetas {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tarjeta {
+    width: 270px;
+    border: 1px black solid;
+    margin: 10px;
+    flex-grow: 1;
+    min-height: 400px;
+}
+
+#tarjeta-morada{
+    background-color: blueviolet;
+}
+
+#tarjeta-gris {
+    background-color: gray;
+}
+
+#tarjeta-blanca {
+
+}
+
+#tarjeta-hojas {
+    background-color: green;
+}
