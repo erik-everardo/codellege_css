@@ -141,7 +141,14 @@ nav > #links > .nav-item > .nav-link {
 }
 
 #tarjeta-hojas {
-    background-color: green;
+    background-image: url('./../assets/hojas.jpg');
+    /*no encontré una imagen exactamente igual, así que trato de igualar el color así*/
+    background-color: rgb(38, 121, 45);
+    background-blend-mode:multiply;
+    
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
 }
 
 .tarjeta > h4{
@@ -173,12 +180,23 @@ nav > #links > .nav-item > .nav-link {
     border: 5px solid rgb(10, 209, 10);
     width: 190px;
     height: 190px;
+
 }
 
 .subtitulo-tarjeta {
     color:white;
     text-align: center;
     padding: 10px;
+}
+#tarjeta-hojas .subtitulo-tarjeta {
+    text-align: start;
+    margin-left: 15%;
+}
+
+#tarjeta-hojas h4.subtitulo-verde{
+    text-align: start;
+    margin-left: 15%;
+    margin-bottom: 10%;
 }
 
 h4.subtitulo-verde{
@@ -188,4 +206,17 @@ h4.subtitulo-verde{
 }
 .titulo-pequeno{
     font-size: 0.5em;
+}
+
+.logo-contenedor{
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-bottom: auto;
+}
+.contenedor-texto{
+    margin-bottom: 10%;
 }
