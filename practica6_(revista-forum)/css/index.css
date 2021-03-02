@@ -126,7 +126,7 @@ nav > #links > .nav-item > .nav-link {
 }
 
 #tarjeta-morada{
-    background-color: blueviolet;
+    background-color: rgb(114, 7, 119);
 }
 
 #tarjeta-gris {
@@ -171,7 +171,7 @@ nav > #links > .nav-item > .nav-link {
 }
 
 #circulo-morado{
-    background-color: rgb(226, 43, 202);
+    background-color: rgb(226, 12, 198);
     border: 5px solid white;
     width: 250px;
     height: 250px;
