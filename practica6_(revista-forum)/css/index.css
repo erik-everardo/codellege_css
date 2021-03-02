@@ -123,14 +123,23 @@ nav > #links > .nav-item > .nav-link {
     min-height: 400px;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 #tarjeta-morada{
     background-color: rgb(114, 7, 119);
 }
 
+#tarjeta-morada h4{
+    font-size: 1.5em;
+}
+
 #tarjeta-gris {
     background-color: rgb(70, 69, 69);
+}
+
+#tarjeta-gris h4{
+    font-size: 1.5em;
 }
 
 #tarjeta-blanca {
@@ -155,7 +164,6 @@ nav > #links > .nav-item > .nav-link {
     margin-bottom: 25px;
     text-align: center;
     color: white;
-    margin-top: 10px;
     
 }
 
@@ -175,12 +183,27 @@ nav > #links > .nav-item > .nav-link {
     border: 5px solid white;
     width: 250px;
     height: 250px;
+    display: flex;
+    flex-direction: column;
 }
+
+#circulo-morado > div{
+    font-size: 68px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+#circulo-morado > .titulo-pequeno{
+    font-size: 30px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
 #circulo-verde {
     border: 5px solid rgb(10, 209, 10);
     width: 190px;
     height: 190px;
-
 }
 
 .subtitulo-tarjeta {
