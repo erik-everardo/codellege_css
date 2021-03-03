@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Long+Cang&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+header {
+    background-color: rgb(201, 197, 197);
+    border: 1px solid black;
+    height: 170px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+main > section {
+    width: 80%;
+    background-color: rgb(159, 205, 50);
+    height: 100%;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+main > aside {
+    width: 20%;
+    height: 100%;
+}
+
+main > aside > #rectangulo-verde-derecha {
+    background-color: rgb(159, 205, 50);
+    height: 80px;
+    width: calc(100% - 5px);
+    margin-top: 3px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+main > aside > #rectangulo-blanco-derecha {
+    height: 350px;
+    width: calc(100% - 5px);
+    background-color: rgb(201, 197, 197);
+    margin: 5px;
+    border: 1px solid black;
+}
+
+header > #logo{
+    margin-left: 50px;
+    margin-top: 40px;
+    height: 100%;
+}
+
+#logo > #general {
+    font-size: 5em;
+    font-family: 'Caveat', cursive;
+    font-family: 'Long Cang', cursive;
+}
+
+#logo > #mente {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgb(159, 205, 50);
+    text-shadow: 1px 1px 1px black;
+    font-size: 2.5em;
+}
+
+.fila-30 {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.fila-70 {
+    height: auto;
+    width: 100%;
+    display: flex;
+
+}
+
+.columna-50 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.columna-40 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.columna-60 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 2.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 10px;
+}
+
+p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    font-size: 1.2;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+.justificar-y-alinear-contenido-al-centro-flexbox {
+    justify-content: center;
+    align-items: center;
+}
