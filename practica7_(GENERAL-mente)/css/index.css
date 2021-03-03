@@ -18,7 +18,7 @@ header {
 
 main {
     width: 100%;
-    height: calc(100vh - 180px);
+    height: auto;
     display: flex;
 }
 
@@ -72,35 +72,37 @@ header > #logo{
 }
 
 .fila-30 {
-    height: 30%;
+    height: auto;
     width: 100%;
     display: flex;
-    border: 1px solid black;
 }
 
 .fila-70 {
-    height: 70%;
+    height: auto;
     width: 100%;
     display: flex;
-    border: 1px solid black;
+
 }
 
 .columna-50 {
     width: 50%;
     height: 100%;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
 
 .columna-40 {
     width: 40%;
     height: 100%;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
 
 .columna-60 {
     width: 60%;
     height: 100%;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
 
 h3 {
@@ -119,4 +121,9 @@ p {
 
 .texto-justificado {
     text-align: justify;
+}
+
+.justificar-y-alinear-contenido-al-centro-flexbox {
+    justify-content: center;
+    align-items: center;
 }
