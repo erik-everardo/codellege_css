@@ -70,3 +70,35 @@ header > #logo{
     text-shadow: 1px 1px 1px black;
     font-size: 2.5em;
 }
+
+.fila-30 {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+
+.fila-70 {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+
+.columna-50 {
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.columna-40 {
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.columna-60 {
+    width: 60%;
+    height: 100%;
+    border: 1px solid black;
+}
