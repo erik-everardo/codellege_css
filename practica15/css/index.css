@@ -140,7 +140,9 @@ article div {
     padding-left: 20px;
     padding-right: 15px;
 }
-article div p {
+
+
+p {
     line-height: 1.6em;
     font-family: sans-serif;
     color: rgb(58,58,58);
@@ -162,7 +164,82 @@ article div p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment:fixed;
     width: 50%;
     height: calc(100vh - 100px);
+}
+
+.section3 {
+    background-color: rgb(237,205,31);
+    display: flex;
+    height: min-content;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.section3 div {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: 20px;
+}
+
+.section3 div:nth-child(1){
+    margin-left: auto;
+}
+
+.section3 div:nth-child(7){
+    margin-right: auto;
+}
+
+.section3 div h5, .section3 div h6 {
+    font-family: sans-serif;
+    color: rgb(61,89,117);
+    margin: 0;
+}
+.section3 div h5 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.section3 div h6{
+    font-size: 26px;
+    text-align: center;
+}
+
+.vertical-rule {
+    width: 2px;
+    height: 70px;
+    background-color: white;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.margin-10px {
+    margin: 10px;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+#mapa {
+    width: 100%;
+}
+
+.width-50percent {
+    width: 50%;
+}
+
+.justify-content-right {
+    justify-content: right;
+}
+
+h6 {
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+
 }
