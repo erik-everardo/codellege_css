@@ -17,7 +17,23 @@ header {
 #brand {
     background-color: rgb(237,205,31);
     height: 100%;
-    width: 332px
+    width: 332px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#brand div {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#brand div span {
+    display: block;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+#brand div span:nth-child(1) {
+    font-weight: 700;
 }
 
 #top-bar nav {
