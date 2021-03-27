@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#top-bar {
+    display: flex;
+    position: fixed;
+    background-color: rgb(30,45,59);
+    height: 100px;
+    z-index: 2;
+    width: 100%;
+}
+header {
+    box-sizing: border-box;
+}
+
+#brand {
+    background-color: rgb(237,205,31);
+    height: 100%;
+    width: 332px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#brand div {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#brand div span {
+    display: block;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+#brand div span:nth-child(1) {
+    font-weight: 700;
+}
+
+#top-bar nav {
+    width: calc(100% - 332px);
+    height: 100%;
+    display: flex;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+main {
+    width: 100vw;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+main section {
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.section1{
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 h2 {
+    font-size: 60px;
+    font-family: sans-serif;
+    width: 700px;
+    color: rgb(30,45,59);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+    
+}
+
+.section1 article {
+    margin: 10px;
+}
+
+.section2 {
+    background-color: white;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+h2 {
+    width: auto;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: rgb(61,89,117);
+    margin-bottom: auto;
+    letter-spacing: 0.05em;
+}
+
+#main-section-heading {
+    font-size: 60px;
+    font-family: sans-serif;
+    width: 700px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: auto;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.yellow-line {
+    margin-bottom: 20px;
+    height: 10px;
+    width: 116px;
+    background-color: rgb(237,205,31);
+}
+
+h3 {
+    font-size: 22px;
+    color: rgb(61,89,117);
+    font-family: sans-serif;
+}
+
+article {
+    width: 80%
+    background-color: #F7F7F7;
+}
+
+article div {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+
+p {
+    line-height: 1.6em;
+    font-family: sans-serif;
+    color: rgb(58,58,58);
+}
+
+#nosotros {
+    display: flex;
+    align-items:flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nosotros h2 {
+    color: rgb(30,45,59);
+}
+
+.img1 {
+    background-image: url('./../assets/nosotros.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+    width: 50%;
+    height: calc(100vh - 100px);
+}
+
+.section3 {
+    background-color: rgb(237,205,31);
+    display: flex;
+    height: min-content;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.section3 div {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: 20px;
+}
+
+.section3 div:nth-child(1){
+    margin-left: auto;
+}
+
+.section3 div:nth-child(7){
+    margin-right: auto;
+}
+
+.section3 div h5, .section3 div h6 {
+    font-family: sans-serif;
+    color: rgb(61,89,117);
+    margin: 0;
+}
+.section3 div h5 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.section3 div h6{
+    font-size: 26px;
+    text-align: center;
+}
+
+.vertical-rule {
+    width: 2px;
+    height: 70px;
+    background-color: white;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.margin-10px {
+    margin: 10px;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+#mapa {
+    width: 100%;
+}
+
+.width-50percent {
+    width: 50%;
+}
+
+.justify-content-right {
+    justify-content: right;
+}
+
+h6 {
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+
+form > * {
+    display: block;
+    width: 60%;
+}
