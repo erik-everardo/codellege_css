@@ -131,24 +131,46 @@
             <div class="flex">
                 <img id="mapa" src="./../assets/mapa.png" alt="">
             </div>
-            <div class="d-flex">
-                <div class="d-flex flex-column width-50percent justify-content-right">
-                    <h6>Preguntas</h6>
-                    <p>Para todo tipo de preguntas, comentarios e inquietudes; por favor llámanos: 914-135-288 o completa el formulario a continuación</p>
+            <article>
+                <div class="d-flex">
+                    <div class="d-flex flex-column width-50percent justify-content-right">
+                        <h6>Preguntas</h6>
+                        <p>Para todo tipo de preguntas, comentarios e inquietudes; por favor llámanos: 914-135-288 o completa el formulario a continuación</p>
+                        <form>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre">
+
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido">
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono">
+
+                            <label for="mensaje">Dejanos un mensaje ...</label>
+                            <textarea id="mensaje" rows="8"></textarea>
+
+                            <div class="d-flex justify-content-right">
+                                <button>Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="d-flex flex-column width-50percent">
+                        <h6>Oficina Principal</h6>
+                        <p>Av. Los Rosales 122,<br>
+                            28021, Madrid.</p>
+                        <p>
+                            info@misitio.com<br>
+                            Teléfono: 914-135-288<br>
+                            Fax: 914-123-456<br>
+                        </p>
+                        <h6>Empleos</h6>
+                        <p style="width: 60%;">Para aplicar a un trabajo en Esfera Construcciones, envía tu CV y carta de recomendación a: info@misitio.com</p>
+                    </div>
                 </div>
-                <div class="d-flex flex-column width-50percent">
-                    <h6>Oficina Principal</h6>
-                    <p>Av. Los Rosales 122,<br>
-                        28021, Madrid.</p>
-                    <p>
-                        info@misitio.com<br>
-                        Teléfono: 914-135-288<br>
-                        Fax: 914-123-456<br>
-                    </p>
-                    <h6>Empleos</h6>
-                    <p>Para aplicar a un trabajo en Esfera Construcciones, envía tu CV y carta de recomendación a: info@misitio.com</p>
-                </div>
-            </div>
+            </article>
             
         </section>
     </main>

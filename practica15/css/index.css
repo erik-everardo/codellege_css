@@ -148,7 +148,7 @@ h3 {
 }
 
 article {
-    width: 300px;
+    width: 80%
     background-color: #F7F7F7;
 }
 
@@ -258,4 +258,9 @@ h6 {
     font-size: 25px;
     font-family: sans-serif;
 
+}
+
+form > * {
+    display: block;
+    width: 60%;
 }
